@@ -1,6 +1,6 @@
 from random import choice
 
-numPlayer = int(input('How many player fo you have? '))
+numPlayer = int(input('How many players you have? '))
 players = []
 for i in range(0, numPlayer):
     playerName = input("enter player {} :".format(i + 1))
